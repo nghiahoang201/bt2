@@ -1,0 +1,40 @@
+.shadow-card {
+  box-shadow: 1px 1px 50px 25px #f6f7ff;
+}
+
+.shadow-hover:hover {
+  box-shadow: 1px 1px 50px 25px #f6f7ff;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.shadow-card-icon {
+  box-shadow: -2px 3px 4px 1px #e6e9fd;
+}
+
+.border-card {
+  border: 1px solid #e2e2e2;
+}
+
+.border-card:hover {
+  border: 1px solid #9ba2e0;
+  cursor: pointer;
+}
+
+@keyframes hideSelect {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animation {
+  animation: hideSelect linear 2s;
+}
